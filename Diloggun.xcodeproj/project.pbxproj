@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2327AB0A2B23D979007477E0 /* DiloggunApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2327AB092B23D979007477E0 /* DiloggunApp.swift */; };
+		2327AB0C2B23D979007477E0 /* DiloggunTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2327AB0B2B23D979007477E0 /* DiloggunTabView.swift */; };
+		2327AB0E2B23D97A007477E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2327AB0D2B23D97A007477E0 /* Assets.xcassets */; };
+		2327AB192B23DBDB007477E0 /* DiloggunListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2327AB182B23DBDB007477E0 /* DiloggunListView.swift */; };
+		2327AB1D2B23DD42007477E0 /* MockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2327AB1C2B23DD42007477E0 /* MockData.swift */; };
+		2327AB1F2B23E1B7007477E0 /* Oddun.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2327AB1E2B23E1B7007477E0 /* Oddun.swift */; };
+		2327AB212B23ED04007477E0 /* OddunListViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2327AB202B23ED04007477E0 /* OddunListViewCell.swift */; };
+		23B2C8152B491F92003A1AB3 /* OddunDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B2C8142B491F92003A1AB3 /* OddunDetailView.swift */; };
+		23B2C8252B4A628E003A1AB3 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B2C8242B4A628E003A1AB3 /* SwiftUIView.swift */; };
+		23BE45F72B660E6600B4618D /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23BE45F62B660E6600B4618D /* AccountView.swift */; };
+		23BE45FD2B683A5800B4618D /* AccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23BE45FC2B683A5800B4618D /* AccountViewModel.swift */; };
+		23BE45FF2B68447600B4618D /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23BE45FE2B68447600B4618D /* Alert.swift */; };
+		23BE46012B6844D000B4618D /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23BE46002B6844D000B4618D /* String+Ext.swift */; };
+		23DC651D2B3D22E60092727C /* DiloggunListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23DC651C2B3D22E60092727C /* DiloggunListViewModel.swift */; };
+		23F582D02B603155002FF9D0 /* okanaData.json in Resources */ = {isa = PBXBuildFile; fileRef = 23F582CF2B603155002FF9D0 /* okanaData.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2327AB062B23D979007477E0 /* Diloggun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Diloggun.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2327AB092B23D979007477E0 /* DiloggunApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiloggunApp.swift; sourceTree = "<group>"; };
+		2327AB0B2B23D979007477E0 /* DiloggunTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiloggunTabView.swift; sourceTree = "<group>"; };
+		2327AB0D2B23D97A007477E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2327AB0F2B23D97A007477E0 /* Diloggun.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Diloggun.entitlements; sourceTree = "<group>"; };
+		2327AB182B23DBDB007477E0 /* DiloggunListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiloggunListView.swift; sourceTree = "<group>"; };
+		2327AB1C2B23DD42007477E0 /* MockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockData.swift; sourceTree = "<group>"; };
+		2327AB1E2B23E1B7007477E0 /* Oddun.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Oddun.swift; sourceTree = "<group>"; };
+		2327AB202B23ED04007477E0 /* OddunListViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OddunListViewCell.swift; sourceTree = "<group>"; };
+		23B2C8142B491F92003A1AB3 /* OddunDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OddunDetailView.swift; sourceTree = "<group>"; };
+		23B2C8242B4A628E003A1AB3 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		23BE45F62B660E6600B4618D /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
+		23BE45FC2B683A5800B4618D /* AccountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewModel.swift; sourceTree = "<group>"; };
+		23BE45FE2B68447600B4618D /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		23BE46002B6844D000B4618D /* String+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
+		23DC651C2B3D22E60092727C /* DiloggunListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiloggunListViewModel.swift; sourceTree = "<group>"; };
+		23F582CF2B603155002FF9D0 /* okanaData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = okanaData.json; path = ../../../../Desktop/okanaData.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2327AB032B23D979007477E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2327AAFD2B23D979007477E0 = {
+			isa = PBXGroup;
+			children = (
+				2327AB082B23D979007477E0 /* Diloggun */,
+				2327AB072B23D979007477E0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2327AB072B23D979007477E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2327AB062B23D979007477E0 /* Diloggun.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2327AB082B23D979007477E0 /* Diloggun */ = {
+			isa = PBXGroup;
+			children = (
+				23F582CF2B603155002FF9D0 /* okanaData.json */,
+				23B2C8202B492467003A1AB3 /* Views */,
+				23B2C81F2B4923F5003A1AB3 /* Model */,
+				23B2C81B2B49231C003A1AB3 /* Utilities */,
+				23B2C8162B492263003A1AB3 /* Screens */,
+				2327AB092B23D979007477E0 /* DiloggunApp.swift */,
+				2327AB0D2B23D97A007477E0 /* Assets.xcassets */,
+				2327AB0F2B23D97A007477E0 /* Diloggun.entitlements */,
+				2327AB102B23D97A007477E0 /* Preview Content */,
+				23B2C8242B4A628E003A1AB3 /* SwiftUIView.swift */,
+			);
+			path = Diloggun;
+			sourceTree = "<group>";
+		};
+		2327AB102B23D97A007477E0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		23B2C8162B492263003A1AB3 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				2327AB0B2B23D979007477E0 /* DiloggunTabView.swift */,
+				23B2C8172B49226B003A1AB3 /* DiloggunListView */,
+				23B2C8182B49229D003A1AB3 /* AccountView */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		23B2C8172B49226B003A1AB3 /* DiloggunListView */ = {
+			isa = PBXGroup;
+			children = (
+				2327AB182B23DBDB007477E0 /* DiloggunListView.swift */,
+				23B2C8142B491F92003A1AB3 /* OddunDetailView.swift */,
+				23DC651C2B3D22E60092727C /* DiloggunListViewModel.swift */,
+			);
+			path = DiloggunListView;
+			sourceTree = "<group>";
+		};
+		23B2C8182B49229D003A1AB3 /* AccountView */ = {
+			isa = PBXGroup;
+			children = (
+				23BE45FC2B683A5800B4618D /* AccountViewModel.swift */,
+				23BE45F62B660E6600B4618D /* AccountView.swift */,
+			);
+			path = AccountView;
+			sourceTree = "<group>";
+		};
+		23B2C81B2B49231C003A1AB3 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				23B2C81E2B49234C003A1AB3 /* Alerts */,
+				23B2C81D2B492335003A1AB3 /* Extensions */,
+				23B2C81C2B49232B003A1AB3 /* Managers */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		23B2C81C2B49232B003A1AB3 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		23B2C81D2B492335003A1AB3 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				23BE46002B6844D000B4618D /* String+Ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		23B2C81E2B49234C003A1AB3 /* Alerts */ = {
+			isa = PBXGroup;
+			children = (
+				23BE45FE2B68447600B4618D /* Alert.swift */,
+			);
+			path = Alerts;
+			sourceTree = "<group>";
+		};
+		23B2C81F2B4923F5003A1AB3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2327AB1E2B23E1B7007477E0 /* Oddun.swift */,
+				2327AB1C2B23DD42007477E0 /* MockData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		23B2C8202B492467003A1AB3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				23B2C8232B4924AA003A1AB3 /* Images */,
+				23B2C8222B492490003A1AB3 /* UIKit Components */,
+				23B2C8212B492471003A1AB3 /* Cells */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		23B2C8212B492471003A1AB3 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				2327AB202B23ED04007477E0 /* OddunListViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		23B2C8222B492490003A1AB3 /* UIKit Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "UIKit Components";
+			sourceTree = "<group>";
+		};
+		23B2C8232B4924AA003A1AB3 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2327AB052B23D979007477E0 /* Diloggun */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2327AB152B23D97A007477E0 /* Build configuration list for PBXNativeTarget "Diloggun" */;
+			buildPhases = (
+				2327AB022B23D979007477E0 /* Sources */,
+				2327AB032B23D979007477E0 /* Frameworks */,
+				2327AB042B23D979007477E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Diloggun;
+			productName = Diloggun;
+			productReference = 2327AB062B23D979007477E0 /* Diloggun.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2327AAFE2B23D979007477E0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					2327AB052B23D979007477E0 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 2327AB012B23D979007477E0 /* Build configuration list for PBXProject "Diloggun" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2327AAFD2B23D979007477E0;
+			productRefGroup = 2327AB072B23D979007477E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2327AB052B23D979007477E0 /* Diloggun */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2327AB042B23D979007477E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23F582D02B603155002FF9D0 /* okanaData.json in Resources */,
+				2327AB0E2B23D97A007477E0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2327AB022B23D979007477E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2327AB212B23ED04007477E0 /* OddunListViewCell.swift in Sources */,
+				2327AB192B23DBDB007477E0 /* DiloggunListView.swift in Sources */,
+				23B2C8252B4A628E003A1AB3 /* SwiftUIView.swift in Sources */,
+				23BE46012B6844D000B4618D /* String+Ext.swift in Sources */,
+				23DC651D2B3D22E60092727C /* DiloggunListViewModel.swift in Sources */,
+				23BE45F72B660E6600B4618D /* AccountView.swift in Sources */,
+				23BE45FD2B683A5800B4618D /* AccountViewModel.swift in Sources */,
+				23BE45FF2B68447600B4618D /* Alert.swift in Sources */,
+				2327AB0C2B23D979007477E0 /* DiloggunTabView.swift in Sources */,
+				2327AB0A2B23D979007477E0 /* DiloggunApp.swift in Sources */,
+				2327AB1F2B23E1B7007477E0 /* Oddun.swift in Sources */,
+				23B2C8152B491F92003A1AB3 /* OddunDetailView.swift in Sources */,
+				2327AB1D2B23DD42007477E0 /* MockData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2327AB132B23D97A007477E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2327AB142B23D97A007477E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		2327AB162B23D97A007477E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Diloggun/Diloggun.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Diloggun/Preview Content\"";
+				DEVELOPMENT_TEAM = 83M9X3N895;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CDL.Diloggun;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2327AB172B23D97A007477E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Diloggun/Diloggun.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Diloggun/Preview Content\"";
+				DEVELOPMENT_TEAM = 83M9X3N895;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CDL.Diloggun;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2327AB012B23D979007477E0 /* Build configuration list for PBXProject "Diloggun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2327AB132B23D97A007477E0 /* Debug */,
+				2327AB142B23D97A007477E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2327AB152B23D97A007477E0 /* Build configuration list for PBXNativeTarget "Diloggun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2327AB162B23D97A007477E0 /* Debug */,
+				2327AB172B23D97A007477E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2327AAFE2B23D979007477E0 /* Project object */;
+}
